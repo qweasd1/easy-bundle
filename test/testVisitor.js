@@ -17,7 +17,7 @@ let b = {
 }
 
 
-Utils.visitBundle({
+Utils.visitBundleValue({
   "**/*.js":(obj,key,value)=>{
     obj[key] = value + "!"
   },

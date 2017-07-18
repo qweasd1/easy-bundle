@@ -16,7 +16,7 @@ let b = new Bundle({
 
 
 let b4 = b.pipe((bundleValue)=>{
-  return Utils.visitBundle({
+  return Utils.visitBundleValue({
     "**/*.tpl":(obj,key,value)=>{
       obj[key] = "changed"
     },

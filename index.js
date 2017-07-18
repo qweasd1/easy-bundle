@@ -14,6 +14,7 @@ function createBundle(obj) {
 
 createBundle.contentOf = Utils.contentOfFile
 createBundle.fromFile = Utils.bundleFromFile
+createBundle.visit = Utils.visitBundleValue
 createBundle.utils = Utils
 createBundle.Visitor = Visitor
 
